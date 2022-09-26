@@ -5,7 +5,7 @@ export default function Form() {
       <div
         id="form"
         formsappId="6320b11aafe7f34ef8977441"
-        style={{ height: "formHeight", width: "100%" }}
+        style={{ width: "100%" }}
       ></div>
       <Script
         id="6320b11aafe7f34ef8977441"
