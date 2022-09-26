@@ -70,7 +70,7 @@
 
 .greenText {
   color: var(--main-green);
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .heading {
   line-height: 3rem;
@@ -80,7 +80,8 @@
 @media screen and (max-width: 500px) {
   .heading {
     font-size: 20px;
-    width: 100vw;
+    line-height: 2rem;
+    width: 75vw;
   }
   .button {
     width: 140px;

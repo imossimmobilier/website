@@ -40,19 +40,16 @@ const Header = (props) => {
 
             <div className="row">
               <h2
-                className={`text-white text-center mx-auto mt-lg-5 mt-3 fw-bold ${styles.heading}`}
+                className={`text-white text-center mx-auto mt-lg-5 mt-3 fw-bold ${styles.heading} d-none d-lg-block`}
               >
                 FAITES ESTIMER GRATUITEMENT VOTRE BIEN IMMOBILIER
-                <span>
-                  <span className={styles.greenText}>EN 24H CHRONO</span>
-                  {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 500 150"
-                  preserveAspectRatio="none"
-                >
-                  <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
-                </svg> */}
-                </span>
+                <span className={styles.greenText}>EN 24H CHRONO</span>
+              </h2>
+              <h2
+                className={`text-white text-center mx-auto mt-lg-5 mt-3 fw-bold ${styles.heading} d-block d-lg-none`}
+              >
+                FAITES ESTIMER GRATUITEMENT VOTRE BIEN IMMOBILIER
+                <p className={styles.greenText}>EN 24H CHRONO</p>
               </h2>
             </div>
             <div className="row mt-5 justify-content-center">
