@@ -40,7 +40,7 @@ const Header = (props) => {
 
             <div className="row">
               <h2
-                className={`text-white text-center mx-auto mt-5 fw-bold ${styles.heading}`}
+                className={`text-white text-center mx-auto mt-lg-5 mt-3 fw-bold ${styles.heading}`}
               >
                 FAITES ESTIMER GRATUITEMENT VOTRE BIEN IMMOBILIER
                 <span>
@@ -57,7 +57,7 @@ const Header = (props) => {
             </div>
             <div className="row mt-5 justify-content-center">
               <p
-                className="text-center text-white fw-400 m-0 p-0 fs-5 mt-5"
+                className="text-center text-white fw-400 m-0 p-0 fs-5 mt-lg-5 mt-3"
                 style={{ fontWeight: "400" }}
               >
                 Recevez une estimation détaillée sous 24h par nos experts et
@@ -73,7 +73,7 @@ const Header = (props) => {
 
               <Link href="#form" onClick={() => router.push("/#form")}>
                 <a
-                  className={`${styles.button1} d-flex justify-content-center align-items-center mt-5`}
+                  className={`${styles.button1} d-flex justify-content-center align-items-center mt-lg-5 mt-3`}
                 >
                   JE VEUX ESTIMER MON BIEN
                   <FontAwesomeIcon
