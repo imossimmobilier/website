@@ -50,7 +50,9 @@ export default function Slider() {
         </h4>
       </div>
       <div className="row py-5">
-        <Progress progress={progress} />
+        <div className="px-3">
+          <Progress progress={progress} />
+        </div>
         <div
           id="carouselExampleControls"
           className="carousel slide"

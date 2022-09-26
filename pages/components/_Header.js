@@ -5,6 +5,7 @@ import banner from "../../public/assets/images/bheader.webp";
 import bg from "../../public/assets/images/header.jpg";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useRouter } from "next/router";
 
 // import the icons you need
 import {
@@ -13,6 +14,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Header = (props) => {
+  const router = useRouter();
   return (
     <>
       <div className={styles.bg}>
@@ -20,14 +22,9 @@ const Header = (props) => {
         <div className={`${styles.overlay} p-2`}>
           <div className="container">
             <div className=" d-flex justify-content-between  px-lg-2 w-100 align-items-center">
-              <Image
-                src={logo}
-                width={221}
-                height={86}
-                className={`img-fluid ${styles.logo}`}
-              />
+              <img src={logo.src} className={`img-fluid ${styles.logo}`} />
 
-              <Link href="/">
+              <Link href="#form">
                 <a
                   className={`${styles.button} d-flex justify-content-center align-items-center`}
                 >
@@ -74,7 +71,7 @@ const Header = (props) => {
                 bien.
               </p>
 
-              <Link href="/">
+              <Link href="#form" onClick={() => router.push("/#form")}>
                 <a
                   className={`${styles.button1} d-flex justify-content-center align-items-center mt-5`}
                 >
@@ -94,11 +91,13 @@ const Header = (props) => {
         className="row align-items-center"
         style={{ backgroundColor: "#063200", height: 100 }}
       >
-        <img
-          src={`${banner.src}`}
-          style={{ width: 800, height: 70 }}
-          className="mx-auto "
-        />
+        <div className="col-lg-6 col-12 mx-auto">
+          <img
+            src={`${banner.src}`}
+            style={{}}
+            className="img-fluid mx-auto "
+          />
+        </div>
       </div>
     </>
   );

@@ -38,7 +38,7 @@ export default function Services() {
       </div>
       <div className="row mt-5">
         {items.map((item) => (
-          <div className="col-4">
+          <div className="col-lg-4 col-12 mb-4 mb-lg-0">
             <div className="d-flex justify-content-center flex-column align-items-center">
               <div
                 className={`${styles.iconContainer} d-flex justify-content-center align-items-center`}

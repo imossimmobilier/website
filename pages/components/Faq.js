@@ -1,4 +1,9 @@
+import styles from "./Faq.module.css";
 import img from "../../public/assets/images/header.jpg";
+import { faCalculator } from "@fortawesome/free-solid-svg-icons";
+
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const items = [
   {
@@ -42,7 +47,7 @@ export default function Faq() {
         <div className="col-lg-6">
           <img src={img.src} alt="" className="img-fluid" />
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 mt-lg-0 mt-4 px-3 px-lg-0">
           <div className="accordion" id="accordionExample">
             {items.map((item, index) => (
               <div className="accordion-item">
@@ -77,6 +82,20 @@ export default function Faq() {
             ))}
           </div>
         </div>
+      </div>
+      <div className="row d-flex justify-content-lg-end flex-row pt-5 justify-content-center">
+        <Link href="#form">
+          <a
+            className={`${styles.button1} d-flex justify-content-center align-items-center`}
+          >
+            <FontAwesomeIcon
+              icon={faCalculator}
+              className="me-2"
+              style={{ fontSize: 16, color: "white" }}
+            />
+            ESTIMATION OFFERTE
+          </a>
+        </Link>
       </div>
     </div>
   );

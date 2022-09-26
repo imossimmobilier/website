@@ -8,6 +8,10 @@
   background-attachment: fixed;
   height: 80vh;
 }
+.logo {
+  width: 220px !important;
+  height: 80px !important;
+}
 @media screen and (max-width: 768px) {
   .bg {
     background-image: url("../../public/assets/images/header.jpg");
@@ -74,11 +78,15 @@
 }
 
 @media screen and (max-width: 500px) {
+  .heading {
+    font-size: 20px;
+    width: 100vw;
+  }
   .button {
-    width: 180px;
-    height: 40px;
+    width: 140px;
+    height: 30px;
     background-color: var(--main-green);
-    font-size: 10px;
+    font-size: 8px;
     color: white;
     border-radius: 25px;
     text-decoration: none;
@@ -86,7 +94,7 @@
     transition: all 0.3s ease-in-out;
   }
   .logo {
-    width: 100px !important;
-    height: 40px !important;
+    width: 130px !important;
+    height: 50px !important;
   }
 }

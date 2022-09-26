@@ -1,14 +1,19 @@
 import styles from "./_Derniers.module.css";
 // import the icons you need
-import { faHouseUser, faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHouseUser,
+  faCheckCircle,
+  faCalculator,
+} from "@fortawesome/free-solid-svg-icons";
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useRouter } from "next/router";
 
 const items = [
   {
     icon: faHouseUser,
-    heading: "STUDIO VENDU - 1 PIÈCE 25 M² ÉTAGE 3/5 - 272 000 €",
+    heading: "Studio vendu - 1 pièce 25 m² Étage 3/5 - 272 000 €",
     text: "Situé rue Baudelique, à quelques pas du métro JULES JOFFRIN et SIMPLON, en RDC sur cours, venez découvrir le potentiel de ce studio.",
     img: "https://mlgwdol7z2oi.i.optimole.com/cb:Af-w~355a0/w:auto/h:auto/q:mauto/https://www.temfackeric.com/wp-content/uploads/2022/09/03259ldrblytevhp0lt9ad78nvtshz867zfgkztxw.webp",
   },
@@ -27,6 +32,7 @@ const items = [
 ];
 
 export default function Derniers() {
+  const router = useRouter();
   return (
     <div className={`container mt-5 ${styles.topDiv} mb-5 pb-5`}>
       <div className="row my-5">
@@ -42,7 +48,7 @@ export default function Derniers() {
       </div>
       <div className="row">
         {items.map((item) => (
-          <div className={`${styles.item} col-lg-4 col-12`}>
+          <div className={`${styles.item} col-lg-4 col-md-4 col-12`}>
             <div
               className={`d-flex justify-content-center flex-column align-items-center  ${styles.divOfImage}`}
             >
@@ -61,14 +67,14 @@ export default function Derniers() {
                 <div className="d-flex">
                   <FontAwesomeIcon
                     icon={faHouseUser}
-                    className={`${styles.icon} me-4`}
+                    className={`${styles.icon} me-2`}
                   />
                   <h6>{item.heading}</h6>
                 </div>
                 <div className="d-flex">
-                  <p className={`${styles.text}`}>{item.text}</p>
+                  <p className={`${styles.text} `}>{item.text}</p>
                 </div>
-                <Link href="/">
+                <Link href="#form" onClick={() => router.push("/#form")}>
                   <a
                     className={`${styles.button} d-flex justify-content-center align-items-center mx-auto `}
                   >

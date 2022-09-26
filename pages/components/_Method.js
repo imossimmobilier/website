@@ -30,12 +30,12 @@ export default function Method() {
     <div className={`${styles.background} `}>
       <div className={`${styles.overlay} pb-4`}>
         <div className={`row  p-5 d-flex flex-column align-items-center`}>
-          <h1 className={`${styles.heading} text-center fw-bold text-white`}>
+          <h1 className={`${styles.heading} text-center fw-bold text-white `}>
             LA METHODE
           </h1>
-          <h1 className={`${styles.fantasy} text-center`}>IMOSS</h1>
+          <h1 className={`${styles.fantasy} text-center `}>IMOSS</h1>
 
-          <div className="col-lg-4 mx-auto mt-3 col-8">
+          <div className="col-lg-4 mx-auto mt-3 col-12">
             <div>
               <p className={`${styles.text} text-center text-white m-0`}>
                 Une méthode éprouvée
