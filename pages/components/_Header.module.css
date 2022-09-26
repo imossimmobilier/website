@@ -98,7 +98,8 @@
     width: 130px !important;
     height: 50px !important;
   }
-  .texts {
+  .textStyles {
     font-weight: 200 !important;
+    margin-top: 80px !important;
   }
 }
