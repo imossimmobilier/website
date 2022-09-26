@@ -1,0 +1,41 @@
+.divContainer {
+  background-color: #6bb04e;
+  width: 100%;
+  height: 100vh;
+}
+
+.fbDiv {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #3c5999;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.inDiv {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #262626;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.youDiv {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #cd201f;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.textAfterMERCI {
+  margin-top: 30px;
+}
+
+.fbDiv:hover,
+.inDiv:hover,
+.youDiv:hover {
+  opacity: 0.9;
+}

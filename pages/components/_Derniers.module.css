@@ -1,0 +1,90 @@
+.topDiv {
+}
+.item {
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 768px) {
+  .item {
+    margin-bottom: 150px;
+  }
+}
+.img {
+  height: 300px;
+}
+
+.img:hover {
+  transform: scale(1.01);
+  transition: all 0.3s ease-in-out;
+}
+
+.divOfImage {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.divOfImage:hover {
+  margin-bottom: 350px;
+}
+.divOfImage:hover .icon {
+  color: green;
+}
+.divOfImage:hover .text {
+  opacity: 1;
+}
+.divOfImage:hover .button {
+  opacity: 1;
+  pointer-events: visible;
+}
+.divOfImage:hover .divofButtomContainer {
+  height: 250px;
+}
+.divofButtomContainer {
+  position: absolute;
+  top: 260px;
+  border-radius: 10px;
+  width: 75%;
+  height: 70px;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+.icon {
+  font-size: 22px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.text {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.button {
+  width: 220px;
+  height: 50px;
+  background-color: var(--main-green);
+  font-size: 12px;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 1px solid #000;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 90px;
+  transition: all 0.3s ease;
+  opacity: 0;
+  /* pointer-events: none; */
+}
+.button1 {
+  width: 380px;
+  height: 60px;
+  background-color: var(--main-green);
+  font-size: 18px;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 1px solid #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #000;
+  color: white !important;
+}

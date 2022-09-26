@@ -1,0 +1,11 @@
+.iconContainer {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: var(--main-green);
+}
+
+.heading1 {
+  font-weight: 600;
+  color: var(--main-green) !important;
+}
