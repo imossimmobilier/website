@@ -98,4 +98,7 @@
     width: 130px !important;
     height: 50px !important;
   }
+  .texts {
+    font-weight: 200 !important;
+  }
 }

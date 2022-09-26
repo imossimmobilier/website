@@ -40,13 +40,13 @@ const Header = (props) => {
 
             <div className="row">
               <h2
-                className={`text-white text-center mx-auto mt-lg-5 mt-3 fw-bold ${styles.heading} d-none d-lg-block`}
+                className={`text-white text-center mx-auto mt-lg-5 mt-4 fw-bold ${styles.heading} d-none d-lg-block`}
               >
                 FAITES ESTIMER GRATUITEMENT VOTRE BIEN IMMOBILIER
                 <span className={styles.greenText}>EN 24H CHRONO</span>
               </h2>
               <h2
-                className={`text-white text-center mx-auto mt-lg-5 mt-3 fw-bold ${styles.heading} d-block d-lg-none`}
+                className={`text-white text-center mx-auto mt-lg-5 mt-4 fw-bold ${styles.heading} d-block d-lg-none`}
               >
                 FAITES ESTIMER GRATUITEMENT VOTRE BIEN IMMOBILIER
                 <p className={styles.greenText}>EN 24H CHRONO</p>
@@ -54,14 +54,14 @@ const Header = (props) => {
             </div>
             <div className="row mt-5 justify-content-center">
               <p
-                className="text-center text-white fw-400 m-0 p-0 fs-5 mt-lg-5 mt-3"
+                className={`${styles.texts} text-center text-white fw-400 m-0 p-0 fs-5 mt-lg-5 mt-4`}
                 style={{ fontWeight: "400" }}
               >
                 Recevez une estimation détaillée sous 24h par nos experts et
                 bénéficiez
               </p>
               <p
-                className="text-center text-white fw-400 m-0 p-0 fs-5 "
+                className={`${styles.texts} text-center text-white fw-400 m-0 p-0 fs-5`}
                 style={{ fontWeight: "400" }}
               >
                 de conseils et d’un suivi personnalisé pour la vente de votre
