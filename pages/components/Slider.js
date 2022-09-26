@@ -10,20 +10,40 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Progress from "./_Progress";
 const items = [
   {
-    text: "Très bon accompagnement de la part de Keyvan dans le cadre de notre acquisition immobilière. Vrai suivi dans toutes les étapes précédant la signature chez notaire",
-    name: "Lebrun S.",
+    text: "Merci à Keyvan et toute équipe d’IMOSS immobilier pour leur professionnalisme. Nous avons été très bien accompagnés de la visite de appartement jusqu’au jour de la signature. Tout est mis en place pour que le client soit écouté et rassuré tout au long de la vente.Bonne continuation à vous !",
+    name: "Thibault I.",
   },
   {
-    text: "Nous avons fait 2 ventes avec à M. MIRI, je n'ai qu'un mot à dire : PARFAIT Je recommande son agence et ses services. Nous avons apprécié ses conseils, sa réactivité & sa disponibilité. Encore merci pour tout",
-    name: "Aurelie M.",
+    text: "Je remercie grandement Imoss Immobilier et plus particulièrement Keyvan, pour la vente de mon appartement. Très professionnel, réactif et accessible. L'accompagnement est tout simplement parfait. N'hésitez absolument pas à faire appel à Imoss",
+    name: "Olivier C.",
   },
   {
-    text: "Je recommande chaudement. La personne en charge de la vente de l’appartement de 90m2 que nous avons acheté à Saint-Ouen a été irréprochable (Keyvan). Toujours disponible et de très bon conseil vous pouvez compter sur lui.",
-    name: "",
+    text: "L'agence lmoss et plus particulièrement lsmael nous a accompagnés dans la vente de notre appartement. Nous avons eu le projet de votre notre bien pendant une période compliquée où les transactions se faisaient rares. lsmael nous a toujours tenu informé des demandes qu'il avait et même quand il ne se passait rien. Il a été force de propositions pour que nous propositions un bien moins « typé ». Nous remercions l'agence lmoss, plus particulièrement Caty et Ismael pour leur soutien. Leur accompagnement et leur professionnalisme",
+    name: "Francis C.",
   },
   {
-    text: "Je recommande chaudement. La personne en charge de la vente de l’appartement de 90m2 que nous avons acheté à Saint-Ouen a été irréprochable (Keyvan). Toujours disponible et de très bon conseil vous pouvez compter sur lui.",
-    name: "",
+    text: "Je remercie lmoss Immobilier pour la vente de mon appartement. Sada, Keyvan et Caty, mes trois interlocuteurs sur différents aspects de la vente, ont été très professionnels et toujours réactifs. En suivant leurs conseils, mon appartement a été vendu au meilleur prix possible, dans un délai rapide, car ils avaient pu sélectionner au mieux les acheteurs potentiels. Bref, je recommande vivement leurs services !",
+    name: "Fabien D.",
+  },
+  {
+    text: "Équipe professionnelle et compétente, ils sont disponibles et efficaces en ayant su rapidement vendre notre appartement",
+    name: "Michel D.",
+  },
+  {
+    text: "Aspects positifs : Professionnalisme, Qualité, Réactivité Keyvan et Ismaël se sont tout d'abord occupé de l'estimation de mes 2 logements. J'ai été surprise par leur connaissance du marché et leur professionnalisme. Je leur ai tout de suite fait confiance pour réaliser mes 2 projets de ventes. Grâce à eux, l'achat de ma maison a pu se réaliser, mon prêt relais a été accepté et je vais pouvoir le solder en peu de temps. Merci les gars !",
+    name: "Ines B.",
+  },
+  {
+    text: "Meilleur agent immo que nous connaissons : professionnel, entreprenant, persévérant, charmant et tout et tout…L'affaire a été suivie sans relâche par Ismaël himself, toujours dispo n'importe quand... dès que nous avons besoin d'une précision, d'un conseil, il était toujours présent",
+    name: "Tuân-Phong K.",
+  },
+  {
+    text: "Merci à Keyvan pour l'accompagnement durant notre vente. Keyvan (ainsi que le reste de l'équipe) a su nous écouter, nous rassurer et grâce à son expérience, il a pu positionner le bien au prix et trouver les acquéreurs après des sélections en amont, ce qui a permis d'avoir des visiteurs dont les dossiers étaient parfaitement réfléchis et étudiés Merci encore et je recommande sans hésitation",
+    name: "Frederic M.",
+  },
+  {
+    text: "Un grand merci à Imoss immobilier qui m'a aidé dans mon projet difficile. Et grâce à Ismael, j'ai réussi à vendre ma maison et acheter un appartement quasiment en même temps. L’agence a su gérer les deux dossiers et je les en remercie encore.",
+    name: "Thomas G.",
   },
 ];
 
