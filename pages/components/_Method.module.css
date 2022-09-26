@@ -47,6 +47,7 @@
 .itemContainer {
   background-color: #6bb04d4d;
   padding: 40px 34px 30px 34px;
+  height: 300px;
 }
 
 @media screen and (max-width: 500px) {
